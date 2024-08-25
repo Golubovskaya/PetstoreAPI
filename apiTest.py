@@ -66,6 +66,6 @@ a = 321
 def test_a():
     assert a == 234
 
-@pytest.mark.xfail(reason = "Expected fail test")
-def test_a2():
-    assert a == 234
+#@pytest.mark.xfail(reason = "Expected fail test")
+#def test_a2():
+    #assert a == 234
